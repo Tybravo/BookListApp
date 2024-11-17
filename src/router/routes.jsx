@@ -1,5 +1,5 @@
-import SignUp from "../auth/signup";
-import Login from "../auth/login";
+import SignUp from "../auth/SignUp";
+import Login from "../auth/Login";
 
 const routes = [
 
