@@ -2,7 +2,6 @@ import { React, useState } from "react";
 import style from "../styles/signup.module.css";
 import CustomButton from "../reusables/CustomButton";
 import { Link , useNavigate} from "react-router-dom";
-// import style from "./App.css";
 
 const SignUp = () => {
 
@@ -18,7 +17,7 @@ const SignUp = () => {
 
   function handleChange(event){
     const {name, value} = event.target
-    //setData((prevData))=>({...prevData, [name]:value}));
+    // setData((prevData)=>({...prevData, [name]:value}));
     setData((prevData)=>{
       return {...prevData, [name]: value}
     });

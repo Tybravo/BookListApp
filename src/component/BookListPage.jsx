@@ -27,13 +27,11 @@ const bokListPage = () => {
 	}
 
 
-	
 	const handleDelete= (index)=>{
 		setBookList(bookList.filter((_,i)=>(i != index)))
 	}
 
-
-
+	
 return(
 <div id={style.wrapper}>
 	    <header>
