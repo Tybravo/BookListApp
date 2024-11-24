@@ -32,6 +32,11 @@ const bokListPage = () => {
 	}
 
 	
+	const searchBook = () =>{
+
+	}
+
+	
 return(
 <div id={style.wrapper}>
 	    <header>
